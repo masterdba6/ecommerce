@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Lockscreen</title>
+  <title>Recuperação de Senha</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -50,10 +50,10 @@
     Digite seu e-mail e receba as instruções para redefinir a sua senha.
   </div>
   <div class="text-center">
-    <a href="/admin/login">Or sign in as a different user</a>
+    <a href="/admin/login">Ou acesse com um usuãrio diferente.</a>
   </div>
   <div class="lockscreen-footer text-center">
-    Copyright &copy; 2014-2016 <b><a href="http://almsaeedstudio.com" class="text-black">Almsaeed Studio</a></b><br>
+    Copyright &copy; 2009-2020 <b><a href="http://webservicehost.com.br" class="text-black">Web Service Host</a></b><br>
     All rights reserved
   </div>
 </div>
