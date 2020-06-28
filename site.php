@@ -365,7 +365,7 @@ $app->post("/register", function(){
 
 	if (!isset($_POST['name']) || $_POST['name'] == '') {
 
-		User::setErrorRegister("Preencha o seu nome.");
+		User::setErrorRegister("Preencha o seu nome completo.");
 		header("Location: /login");
 		exit;
 
@@ -374,6 +374,14 @@ $app->post("/register", function(){
 	if (!isset($_POST['email']) || $_POST['email'] == '') {
 
 		User::setErrorRegister("Preencha o seu e-mail.");
+		header("Location: /login");
+		exit;
+
+	}
+
+	if (!isset($_POST['phone']) || $_POST['phone'] == '') {
+
+		User::setErrorRegister("Informe o seu telefone com DDD.");
 		header("Location: /login");
 		exit;
 
